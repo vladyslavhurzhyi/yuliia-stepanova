@@ -1,0 +1,40 @@
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #1B1D1F;
+
+  
+}
+
+.mouse {
+  width: 50px;
+  height: 90px;
+  border: 2px solid #959595;
+  border-radius: 60px;
+  position: relative;
+  margin:  auto;
+  box-sizing: border-box;
+  margin-top: 90px;
+}
+
+.mouse::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #959595;
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 60px;
+  }
+}
