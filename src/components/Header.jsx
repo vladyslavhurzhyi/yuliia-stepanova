@@ -6,7 +6,7 @@ const Header = () => {
       <div className=" font-bold text-[34px]">
         <Link
           href={"/"}
-          className="p-4 hover:text-zinc-400 transition-all duration-300 font-['Pragmatica_Extended']"
+          className="p-4 hover:text-zinc-400 transition-all duration-300 "
         >
           Yuliia Stepanova
         </Link>
@@ -38,7 +38,7 @@ const Header = () => {
           href={"/"}
           className="p-4  mr-[72px] hover:text-zinc-400 transition-all duration-300"
         >
-          illustrations
+          Illustrations
         </Link>
 
         <Link
