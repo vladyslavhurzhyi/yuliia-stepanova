@@ -1,5 +1,9 @@
-const SectionWrapper = ({ children }) => {
-  return <section className="mt-[130px] ">{children}</section>;
+const SectionWrapper = ({ children, idName }) => {
+  return (
+    <section className="mt-[130px]" id={idName}>
+      {children}
+    </section>
+  );
 };
 
 export default SectionWrapper;

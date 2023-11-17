@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const Illustrations = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper idName={"illustrations"}>
       <Title>Illustrations</Title>
 
       <div className="flex">

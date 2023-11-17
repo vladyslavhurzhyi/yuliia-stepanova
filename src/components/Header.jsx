@@ -14,35 +14,35 @@ const Header = () => {
 
       <nav className=" ml-auto text-[18px]  flex  max-w-[713px]">
         <Link
-          href={"/"}
+          href={"#creativ"}
           className="mr-[71px] hover:text-zinc-400 transition-all duration-300"
         >
           Creativ
         </Link>
 
         <Link
-          href={"/"}
+          href={"#socialMedia"}
           className=" mr-[71px] hover:text-zinc-400 transition-all duration-300"
         >
           Social media
         </Link>
 
         <Link
-          href={"/"}
+          href={"#retouch"}
           className=" mr-[71px] hover:text-zinc-400 transition-all duration-300"
         >
           Retouch
         </Link>
 
         <Link
-          href={"/"}
+          href={"#illustrations"}
           className="  mr-[71px] hover:text-zinc-400 transition-all duration-300"
         >
           Illustrations
         </Link>
 
         <Link
-          href={"/"}
+          href={"#contact"}
           className="  hover:text-zinc-400 transition-all duration-300"
         >
           Contact

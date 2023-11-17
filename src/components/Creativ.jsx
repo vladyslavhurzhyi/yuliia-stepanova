@@ -5,7 +5,7 @@ import SectionWrapper from "./SectionWrapper";
 const Creativ = () => {
   return (
     <>
-      <SectionWrapper>
+      <SectionWrapper idName={"creativ"}>
         <Title>Creativ</Title>
 
         <div className="flex">

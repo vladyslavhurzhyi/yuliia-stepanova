@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const Retouch = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper idName={"retouch"}>
       <Title>Retouch</Title>
 
       <div className="flex gap-[25px]">

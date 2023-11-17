@@ -4,7 +4,7 @@ import ImageZoom from "./ImageZoom";
 
 const SocialMedia = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper idName={"socialMedia"}>
       <Title>SocialMedia</Title>
 
       <div className="flex">

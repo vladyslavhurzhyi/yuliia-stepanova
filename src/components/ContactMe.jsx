@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContactMe = () => {
   return (
-    <div className="mx-auto max-w-[428px] mb-[282px] mt-[502px]">
+    <div className="mx-auto max-w-[428px] mb-[282px] mt-[502px]" id="contact">
       <div className="mx-auto block text-center text-[36px] font-bold tracking-[-0.5] text-[#dedede] mb-[20px]">
         Contact Me
       </div>
