@@ -12,7 +12,7 @@ const Header = () => {
         </Link>
       </div>
 
-      <nav className=" text-[18px]  flex font-['Manrope']">
+      <nav className=" text-[18px]  flex ">
         <Link
           href={"/"}
           className="p-4 mr-[72px] hover:text-zinc-400 transition-all duration-300"

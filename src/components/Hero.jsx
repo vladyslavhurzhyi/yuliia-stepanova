@@ -26,7 +26,7 @@ const Hero = () => {
               height={400}
               src={"/yuliia.png"}
               alt="yuliia stepanova"
-              className="min-w-[400px] min-h-[400px]"
+              className="min-w-[400px] min-h-[400px] rounded-full"
             />
           </div>
         </div>
