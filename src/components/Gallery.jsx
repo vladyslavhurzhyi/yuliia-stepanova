@@ -1,6 +1,6 @@
 import ImageZoom from "./ImageZoom";
 
-function Gallery() {
+const Gallery = () => {
   return (
     <>
       <div className="flex">
@@ -46,6 +46,6 @@ function Gallery() {
       </div>
     </>
   );
-}
+};
 
 export default Gallery;
