@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 
 const manrope = Manrope({
   weight: ["400", "500", "700"],
-  style: ["normal"],
   subsets: ["latin"],
 });
 
