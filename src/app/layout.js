@@ -9,7 +9,7 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  title: "Yuliia Stepanova",
+  title: "Yuliia Stepanova Portfolio",
   description: "Seasoned graphic designer and photo retoucher",
 };
 
