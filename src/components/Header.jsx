@@ -11,17 +11,17 @@ const Header = () => {
   };
 
   return (
-    <header className="  flex items-center mb-[50px] lg:mb-[92px] text-white  ml-5 mt-[10px] lg:mt-[35px] lg:ml-[100px] lg:mr-[118px]">
-      <div className=" font-bold text-[25px] lg:text-[34px]">
+    <header className=" fixed z-40 bg-[#1B1D1F] w-full top-0 left-0 flex items-center  lg:mb-[92px] text-white    lg:pt-[35px] lg:pl-[100px] lg:pr-[118px]">
+      <div className="mr-auto my-[10px] font-bold text-[25px] lg:text-[34px]">
         <Link
           href={"/"}
-          className=" hover:text-zinc-400 transition-all duration-300 "
+          className="ml-5 hover:text-zinc-400 transition-all duration-300 "
         >
           Yuliia Stepanova
         </Link>
       </div>
 
-      <nav className=" ml-auto text-[18px] hidden lg:flex  max-w-[713px] ">
+      <nav className="text-[18px] hidden lg:block  max-w-[713px] ">
         <Link
           href={"#creativ"}
           className="mr-[71px] hover:text-zinc-400 transition-all duration-300"
@@ -63,56 +63,57 @@ const Header = () => {
         setIsOpen={setIsOpen}
         handleClick={handleClick}
       />
+      {isOpen && (
+        <nav>
+          <div
+            className={`${
+              isOpen ? "opacity-1" : "opacity-0"
+            } transition ease all duration-300 absolute left-0 top-0  bg-[#1B1D1F] w-full h-screen z-40`}
+          >
+            <div className="flex flex-col items-center text-[25px] gap-5  mt-28">
+              <Link
+                onClick={handleClick}
+                href={"#creativ"}
+                className=" hover:text-zinc-400 transition-all duration-300"
+              >
+                Creativ
+              </Link>
 
-      <nav>
-        <div
-          className={`${
-            isOpen ? "opacity-1" : "opacity-0"
-          } transition ease all duration-300 absolute left-0 top-0  bg-[#1B1D1F] w-full h-screen z-40`}
-        >
-          <div className="flex flex-col items-center text-[25px] gap-5  mt-28">
-            <Link
-              onClick={handleClick}
-              href={"#creativ"}
-              className=" hover:text-zinc-400 transition-all duration-300"
-            >
-              Creativ
-            </Link>
+              <Link
+                onClick={handleClick}
+                href={"#socialMedia"}
+                className="  hover:text-zinc-400 transition-all duration-300"
+              >
+                Social media
+              </Link>
 
-            <Link
-              onClick={handleClick}
-              href={"#socialMedia"}
-              className="  hover:text-zinc-400 transition-all duration-300"
-            >
-              Social media
-            </Link>
+              <Link
+                onClick={handleClick}
+                href={"#retouch"}
+                className="  hover:text-zinc-400 transition-all duration-300"
+              >
+                Retouch
+              </Link>
 
-            <Link
-              onClick={handleClick}
-              href={"#retouch"}
-              className="  hover:text-zinc-400 transition-all duration-300"
-            >
-              Retouch
-            </Link>
+              <Link
+                onClick={handleClick}
+                href={"#illustrations"}
+                className="   hover:text-zinc-400 transition-all duration-300"
+              >
+                Illustrations
+              </Link>
 
-            <Link
-              onClick={handleClick}
-              href={"#illustrations"}
-              className="   hover:text-zinc-400 transition-all duration-300"
-            >
-              Illustrations
-            </Link>
-
-            <Link
-              onClick={handleClick}
-              href={"#contact"}
-              className="  hover:text-zinc-400 transition-all duration-300"
-            >
-              Contact
-            </Link>
+              <Link
+                onClick={handleClick}
+                href={"#contact"}
+                className="  hover:text-zinc-400 transition-all duration-300"
+              >
+                Contact
+              </Link>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      )}
     </header>
   );
 };

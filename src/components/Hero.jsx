@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <section className={"sectionHero"}>
+      <section className={"sectionHero mt-20 lg:mt-[150px]"}>
         <div className="flex flex-col lg:flex-row ">
           <div className="order-2 lg:order-1 w-full md:w-[711px] mb-[12px] mr-[75px]  font-bold text-[24px] lg:text-[64px] leading-[29px] lg:leading-[70px]  tracking-[-0.5px] text-[#DEDEDE] ">
             <h1>
