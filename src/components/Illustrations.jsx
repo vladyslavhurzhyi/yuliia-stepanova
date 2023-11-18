@@ -7,32 +7,32 @@ const Illustrations = () => {
     <SectionWrapper idName={"illustrations"}>
       <Title>Illustrations</Title>
 
-      <div className="flex">
-        <div className="w-full mr-[25px] ">
-          <div className=" relative w-full  max-w-[625px] h-[501px] bg-slate-400 mb-[24px]">
+      <div className="block md:flex ">
+        <div className="lg:mr-[25px] ">
+          <div className=" relative   max-w-[100%]  lg:w-[625px] lg:h-[501px]  mb-[24px]">
             <ImageZoom src={"/il1.jpg"} />
           </div>
 
-          <div className="relative w-full  max-w-[625px] h-[394px] bg-slate-300 mb-[24px]">
+          <div className="relative   max-w-[100%]  lg:w-[625px] lg:h-[394px]  mb-[24px]">
             <ImageZoom src={"/il3.jpg"} />
           </div>
-          <div className="relative w-full max-w-[625px] h-[444px]  bg-slate-300 mb-[24px]">
+          <div className="relative  max-w-[100%]  lg:w-[625px] lg:h-[444px]   mb-[24px]">
             <ImageZoom src={"/il5.jpg"} />
           </div>
-          <div className="relative w-full max-w-[625px] h-[441px]  bg-slate-300 mb-[24px]">
+          <div className="relative  max-w-[100%]  lg:w-[625px] lg:h-[441px]   mb-[24px]">
             <ImageZoom src={"/il7.jpg"} />
           </div>
         </div>
 
         {/* right */}
-        <div className="w-full">
-          <div className="relative w-full max-w-[625px]  h-[618px]  bg-slate-800 mb-[24px]">
+        <div className="">
+          <div className="relative  max-w-[100%]  lg:w-[625px] lg:h-[618px]   mb-[24px]">
             <ImageZoom src={"/il2.jpg"} />
           </div>
-          <div className="relative w-full  max-w-[625px] h-[299px] bg-slate-600 mb-[24px]">
+          <div className="relative   max-w-[100%]  lg:w-[625px] lg:h-[299px]  mb-[24px]">
             <ImageZoom src={"/il4.jpg"} />
           </div>
-          <div className="relative w-full  max-w-[625px] h-[549px] bg-slate-600 mb-[24px]">
+          <div className="relative   max-w-[100%]  lg:w-[625px] lg:h-[549px]  mb-[24px]">
             <ImageZoom src={"/il6.jpg"} />
           </div>
         </div>

@@ -10,9 +10,9 @@ html {
 body {
   color: rgb(var(--foreground-rgb));
   background: #1B1D1F;
-
-  
 }
+
+
 
 .mouse {
   width: 50px;
@@ -49,4 +49,10 @@ body {
 section {
   margin-left: 100px;
   margin-right: 100px;
+
+    @media (max-width: 768px) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
 }
+

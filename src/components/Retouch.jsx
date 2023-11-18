@@ -7,21 +7,21 @@ const Retouch = () => {
     <SectionWrapper idName={"retouch"}>
       <Title>Retouch</Title>
 
-      <div className="flex gap-[25px]">
-        <div className="relative w-[625px] h-[939px] mb-[24px]">
+      <div className="block md:flex md:gap-[25px]">
+        <div className=" max-w-[100%]  lg:w-[625px] lg:h-[939px] mb-[24px]">
           <ImageZoom src={"/rt1.jpg"} />
         </div>
-        <div className="relative w-[625px] h-[939px] mb-[24px]">
+        <div className=" max-w-[100%]  lg:w-[625px] lg:h-[939px] mb-[24px]">
           <ImageZoom src={"/rt2.jpg"} />
         </div>
       </div>
-      <div className=" ">
-        <div className="relative w-[1106px] h-[626px] mb-[24px] mx-auto">
+      <div className="">
+        <div className=" max-w-[100%]  lg:w-[1106px] lg:h-[626px] mb-[24px] mx-auto">
           <ImageZoom src={"/rt3.jpg"} />
         </div>
       </div>
       <div className=" ">
-        <div className="relative w-[1274px] h-[632px] mb-[24px] mx-auto">
+        <div className=" max-w-[100%]  lg:w-[1274px] lg:h-[632px] mb-[24px] mx-auto">
           <ImageZoom src={"/rt4.jpg"} />
         </div>
       </div>

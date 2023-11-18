@@ -30,7 +30,8 @@ const ImageZoom = ({ src }) => {
             src={src}
             alt={`image ${src.split("/")[1]}`}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            fill
+            width={1274}
+            height={625}
             className=" hover:scale-105 transition-all duration-300 ease-linear"
           ></Image>
         </a>
