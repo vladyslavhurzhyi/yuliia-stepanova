@@ -3,7 +3,7 @@ import Image from "next/image";
 const ContactMe = () => {
   return (
     <div
-      className="mx-auto mb-[100px] mt-[150px]  md:max-w-[428px] lg:mb-[282px] lg:mt-[502px]"
+      className="mx-auto mb-[100px] mt-[150px]  md:max-w-[428px] lg:mb-[200px] xl:mb-[282px] lg:mt-[250px] xl:mt-[502px]"
       id="contact"
     >
       <div className="mx-auto block text-center text-[25px] lg:text-[36px] font-bold tracking-[-0.5] text-[#dedede] mb-[20px]">

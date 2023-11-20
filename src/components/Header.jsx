@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className=" fixed z-40 bg-[#1B1D1F] w-full top-0 left-0 flex items-center  lg:mb-[92px] text-white    lg:pt-[35px] lg:pl-[100px] lg:pr-[118px]">
+    <header className=" fixed z-40 bg-[#1B1D1F] w-full top-0 left-0 flex items-center  lg:mb-[92px] text-white    lg:pt-[25px] lg:pl-[50px] lg:pr-[68px] xl:pt-[35px] xl:pl-[100px] xl:pr-[118px]">
       <div className="mr-auto my-[10px] font-bold text-[25px] lg:text-[34px]">
         <Link
           href={"/"}
@@ -24,28 +24,28 @@ const Header = () => {
       <nav className="text-[18px] hidden lg:block  max-w-[713px] ">
         <Link
           href={"#creativ"}
-          className="mr-[71px] hover:text-zinc-400 transition-all duration-300"
+          className="lg:mr-[35px] xl:mr-[71px] hover:text-zinc-400 transition-all duration-300"
         >
           Creativ
         </Link>
 
         <Link
           href={"#socialMedia"}
-          className=" mr-[71px] hover:text-zinc-400 transition-all duration-300"
+          className=" lg:mr-[35px] xl:mr-[71px] hover:text-zinc-400 transition-all duration-300"
         >
           Social media
         </Link>
 
         <Link
           href={"#retouch"}
-          className=" mr-[71px] hover:text-zinc-400 transition-all duration-300"
+          className=" lg:mr-[35px] xl:mr-[71px] hover:text-zinc-400 transition-all duration-300"
         >
           Retouch
         </Link>
 
         <Link
           href={"#illustrations"}
-          className="  mr-[71px] hover:text-zinc-400 transition-all duration-300"
+          className="  lg:mr-[35px] xl:mr-[71px] hover:text-zinc-400 transition-all duration-300"
         >
           Illustrations
         </Link>
