@@ -25,6 +25,14 @@ const Retouch = () => {
           <ImageZoom src={"/rt4.jpg"} />
         </div>
       </div>
+      <div className="block md:flex md:gap-[25px] justify-center">
+        <div className=" max-w-[100%]  lg:w-[625px] lg:h-[625px] mb-[24px]">
+          <ImageZoom src={"/DSC_2.jpg"} />
+        </div>
+        <div className=" max-w-[100%]  lg:w-[625px] lg:h-[625px] mb-[24px]">
+          <ImageZoom src={"/DSC_1.jpg"} />
+        </div>
+      </div>
     </SectionWrapper>
   );
 };
