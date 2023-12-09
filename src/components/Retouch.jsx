@@ -28,7 +28,7 @@ const Retouch = () => {
 
       <div className=" ">
         <div className=" max-w-[100%]  lg:w-[1274px]  mb-[24px] mx-auto">
-          <ImageZoom src={"/isolationKreativ.jpg"} />
+          <ImageZoom src={"/isolationCreativ.jpg"} />
         </div>
       </div>
 
