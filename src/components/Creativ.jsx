@@ -27,7 +27,7 @@ const Creativ = () => {
               <ImageZoom src={"/9.jpg"} />
             </div>
             <div className="relative w-full md:max-w-[100%]    max-w-[625px]  mb-[24px]">
-              <ImageZoom src={"/musikKreativ.jpg"} />
+              <ImageZoom src={"/musikCreativ.jpg"} />
             </div>
           </div>
 
@@ -36,6 +36,10 @@ const Creativ = () => {
             <div className="relative w-full md:max-w-[100%]   max-w-[625px]    mb-[24px]">
               <ImageZoom src={"/2.jpg"} />
             </div>
+            <div className="relative w-full md:max-w-[100%]    max-w-[625px]  mb-[24px]">
+              <ImageZoom src={"/hund.jpg"} />
+            </div>
+
             <div className="relative w-full md:max-w-[100%]    max-w-[625px]  mb-[24px]">
               <ImageZoom src={"/4.jpg"} />
             </div>
